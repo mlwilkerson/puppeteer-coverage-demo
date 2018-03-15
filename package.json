@@ -1,0 +1,16 @@
+{
+  "name": "puppeteer-coverage-demo",
+  "version": "0.0.1",
+  "description": "experiment with puppeteer code coverage",
+  "main": "test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Mike Wilkerson <mwilkerson@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nyc": "^11.6.0",
+    "puppeteer": "^1.1.1",
+    "puppeteer-to-istanbul": "^1.2.2"
+  }
+}
